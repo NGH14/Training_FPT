@@ -1,0 +1,78 @@
+﻿@model HomeViewModel
+@using FPT.ViewModels.Catalog.Products;
+@inject LazZiya.ExpressLocalization.ISharedCultureLocalizer _loc;
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
+
+@{ var culture = CultureInfo.CurrentCulture.Name; }
+@{ 
+	ViewData["Title"] = "FPT Training Home Page";
+}
+
+
+
+
+<div class="text-center">
+
+	<h1 class="display-4" localize-content>FPT Corporation Internal Training</h1>
+
+
+	<p  localize-content>
+	Established on September 13rd, 1988, with Technology, Telecommunications and Education as its core business sectors. FPT's telecomunications infrastructure has cover 59/63 provinces and cities in Vietnam and has constantly expanded globally with 48 offficers in 26 countries and territories abroad.
+			<br>
+			Internal training, also called on-site training, is training that employees receive from employers while working on the job. Internal training is different from employee instruction that occurs at third-party, off-site educational institutions. However, employees can simultaneously train at educational institutions while receiving internal training. Not surprisingly, given the variety of businesses, internal training programs can be very different from one another. For example, they might differ by the content being taught or by the formality of the program.
+			Internal training can serve a number of purposes. Employers offer training to new employees to teach them how to perform their jobs and to acquaint them with workplace policies and environments. Companies can teach their existing employees additional skills to develop their careers and can give them information about new work procedures and policies. Companies can also train employees to do more than one job in a process called cross-training. This process helps businesses maintain productivity levels while enhancing the individual skills of their employees.
+			</p>
+
+
+
+	<p style="font-size: 16px;">
+		<strong style=""><localize>Learn more</localize></strong>
+		<br />
+		<a href="https://fpt.com.vn/en/about-us/member-companies" title=""> <localize>FPT Education</localize></a>
+		|
+		<a href="https://fpt.com.vn/en/about-us/member-companies" title=""> <localize>FPT Corporation</localize></a>
+		.
+	</p>
+
+</div>
+<hr>
+
+<div></div>
+<div></div>
+<div class="text-left">
+	<h1 class="display-4 text-left" localize-content>Culture Internal Training</h1>
+	<div class="row">
+		<div class="col-12 col-md-9">
+			<p style="text-align: justify;"  localize-content>
+		
+					Culture is the power of FPT, the spiritual glue that holds all FPT employees together,
+					inspiring each member to work in the spirit of dedication and creativity
+					for the company’s sustainable development.
+					Sharing based on the
+					spirit of teamwork towards
+					a common goal is strongly encouraged.
+					Objectivity is the most important virtue of leaders, gains the trust of employees and inspires them to work with increased dedication.
+
+					FPT orients its employees towards innovation
+					and creativity so that they can be on top.
+	
+</p>
+			<button class="button-lmore"><span>		<localize> More 		</localize></span></button>
+
+		</div>
+		<div class="col-12 col-md-3">
+			<img class="hide-over" style=" object-fit: cover;object-position: left;
+		   margin: 10px 20px 20px;
+		   height: 400px; width:400px;
+		   " src="~/img/undraw_shared_goals_3d12.svg" alt="">
+		</div>
+	</div>
+</div>
+
+
+
+<div class="gap-100"></div>
+<div></div>
+<div></div>
+
+

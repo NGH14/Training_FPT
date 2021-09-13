@@ -1,0 +1,72 @@
+﻿@model FPT.ViewModels.System.Users.LoginRequest
+@{ ViewData["Title"] = "Login";
+	Layout = null;
+	var culture = CultureInfo.CurrentCulture.Name; }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://kit.fontawesome.com/64d58efce2.js"
+			crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="~/css/login-page.css" />
+	<title>Sign in & Sign up Form</title>
+</head>
+<body>	
+	<div class="container">
+		<div class="forms-container">
+			<div class="signin-signup">
+				<form action="/@culture/Account/Login" method="post" class="sign-in-form">
+					<img src="https://fpt.com.vn/Content/home/images/icon/ic-logo.png" alt="FPTlogo" width="80" height="50">
+
+					<h2 class="title">Sign in</h2>
+					<div class="control-group">
+						<div class="controls input-field">
+							<i class="fas fa-envelope"></i>
+							<input type="text" asp-for="UserName" placeholder="UserName">
+
+						</div>
+
+						<span asp-validation-for="UserName" class="text-error"></span>
+				
+					</div>
+					<div class="control-group">
+						<div class="controls input-field">
+							<i class="fas fa-lock"></i>
+							<input type="password" asp-for="Password" placeholder="Password">
+
+						</div>
+						<span asp-validation-for="Password" class="text-error"></span>
+					</div>
+					<input type="submit" value="Login" class="btn solid" />
+
+				</form>
+
+			</div>
+		</div>
+
+		<span class="text-error field-validation-error" data-valmsg-for="UserName" data-valmsg-replace="true">User name is required</span>
+
+		<div class="panels-container">
+			<div class="panel left-panel">
+				<div class="content">
+					<h3>FPT Training Sign-in Page</h3>
+					<p>
+						If you want to go back to homepage please click on the button below.
+					</p>
+					<button class="btn transparent" id="sign-up-btn">
+						<ul class="breadcrumb" style="list-style: none">
+							<li><a style="color: white" href="/"> Back Home</a>
+
+						</ul>
+					</button>
+				</div>
+				<img src="~/img/undraw_Access_account_re_8spm.svg" class="image" alt="" />
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

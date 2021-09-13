@@ -1,0 +1,65 @@
+﻿@model ProductDetailViewModel
+@{ ViewData["Title"] = "Detail";
+				Layout = "~/Views/Shared/_Layout.cshtml";
+				var culture = CultureInfo.CurrentCulture; }
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
+@inject LazZiya.ExpressLocalization.ISharedCultureLocalizer _loc;
+
+
+
+
+
+	<div class="row">
+	<div class="span6">
+			<h3>@Model.Product.Name</h3>
+			<small>@Model.Product.Description</small>
+	
+			<hr class="soft clr" />
+			<p>
+				@Html.Raw(Model.Product.Details)
+			</p>
+	
+		<div class="span9">
+			<ul id="productDetail" class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab"><localize>Product Details</localize></a></li>
+				<li><a href="#profile" data-toggle="tab"><localize>Related Products</localize></a></li>
+			</ul>
+			<div id="myTabContent" class="tab-content">
+				<div class="tab-pane fade active in" id="home">
+					<h4>Product Information</h4>
+					@Html.Raw(Model.Product.Details)
+				</div>
+				<div class="tab-pane fade" id="profile">
+					<div id="myTab" class="pull-right">
+						<a href="#listView" data-toggle="tab"><span class="btn btn-large"><i class="icon-list"></i></span></a>
+						<a href="#blockView" data-toggle="tab"><span class="btn btn-large btn-primary"><i class="icon-th-large"></i></span></a>
+					</div>
+					<br class="clr" />
+					<hr class="soft" />
+					<div class="tab-content">
+						<div class="tab-pane" id="listView">
+							<div class="row">
+								<div class="span2">
+									<img src="themes/images/products/4.jpg" alt="" />
+								</div>
+								<div class="span4">
+									<h3>New | Available</h3>
+									<hr class="soft" />
+									<h5>Product Name </h5>
+									<p>
+										Nowadays the lingerie industry is one of the most successful business spheres.We always stay in touch with the latest fashion tendencies -
+										that is why our goods are so popular..
+									</p>		
+									<br class="clr" />
+								</div>
+								
+							</div>
+							<hr class="soft" />
+						</div>
+						
+					</div>
+					<br class="clr">
+				</div>
+			</div>
+		</div>
+	</div>

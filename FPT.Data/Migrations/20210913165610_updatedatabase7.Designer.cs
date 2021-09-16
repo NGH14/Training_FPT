@@ -4,14 +4,16 @@ using FPT.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FPT.Data.Migrations
 {
     [DbContext(typeof(EShopDbContext))]
-    partial class EShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210913165610_updatedatabase7")]
+    partial class updatedatabase7
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,34 +80,26 @@ namespace FPT.Data.Migrations
                         new
                         {
                             Id = new Guid("12bd354f-9101-45ca-b5b7-da3f325983dc"),
-                            ConcurrencyStamp = "fe2ccb55-7eef-4598-9ae8-76ab0c8c7cf4",
-                            Description = "Training Analyst role",
-                            Name = "Training Analyst",
-                            NormalizedName = "Training Analyst"
+                            ConcurrencyStamp = "4a6feda0-1db6-4ed0-bd88-f023eca6848a",
+                            Description = "Trainer role",
+                            Name = "Trainer",
+                            NormalizedName = "Trainer"
                         },
                         new
                         {
                             Id = new Guid("17d4acf8-1131-b5b7-1100-aa6f321543ba"),
-                            ConcurrencyStamp = "e3dd011d-86ce-4f07-90ec-e4799366e713",
-                            Description = "FPT Staff role",
-                            Name = "FPT Staff",
-                            NormalizedName = "FPT Staff"
+                            ConcurrencyStamp = "db36ddcd-d735-4b26-96dd-b86c560f5773",
+                            Description = "Trainee role",
+                            Name = "Trainee",
+                            NormalizedName = "Trainee"
                         },
                         new
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
-                            ConcurrencyStamp = "17a2462d-d61a-4187-be18-fc136ac2bb43",
+                            ConcurrencyStamp = "de463d95-0484-4ae2-951c-ad2a8947f9b4",
                             Description = "Administrator role",
                             Name = "Admin",
                             NormalizedName = "Admin"
-                        },
-                        new
-                        {
-                            Id = new Guid("074bc203-87c9-4dc6-883e-4800b5e9d4eb"),
-                            ConcurrencyStamp = "26bd670a-fa40-452d-ad6f-cc60b734e90f",
-                            Description = "Human Resources role",
-                            Name = "Human Resources",
-                            NormalizedName = "Human Resources"
                         });
                 });
 
@@ -179,7 +173,7 @@ namespace FPT.Data.Migrations
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e61d57e7-d7f2-44ac-aaba-326f437dc51b",
+                            ConcurrencyStamp = "440b3f43-75dc-4d2d-91f2-cd538b1f8e0b",
                             Dob = new DateTime(2001, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "fptadmin@fpt.staff.com",
                             EmailConfirmed = true,
@@ -188,7 +182,7 @@ namespace FPT.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "fptadmin@fpt.staff.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFXVnbsjh2fqiCnneVfMlbvG+CJa9AmsMHEqRfU4OiOuWerxpgttZCu98gmBSr5DSA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHTJddDGtSRQ2emti5OyCI6ApdoKnu/SojnICj+uUoPnykEBsXPlFTQf5sTFOqu0lg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -198,7 +192,7 @@ namespace FPT.Data.Migrations
                         {
                             Id = new Guid("1710dce2-969a-435d-bba4-df3f325983dc"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7a2b6756-de00-4138-bc3f-71d9ea9a4149",
+                            ConcurrencyStamp = "80d20341-5827-441a-9e69-9401c9ac34d7",
                             Dob = new DateTime(2001, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "NghiaVHGCS190654@fpt.edu.com",
                             EmailConfirmed = true,
@@ -207,7 +201,7 @@ namespace FPT.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "NghiaVHGCS190654@fpt.edu.com",
                             NormalizedUserName = "Nghia",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMioo7Fh1bkInONwPdD/LoN4/KRY6tvpC+ts4/E8I9EgWUBVYLICSeRHyNDh9SaE0A==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ0zb4NqUdNE//bk/ePJt5q1KZwSKy1aIe+SZHssa4XxnGSpPGbXf5jDAZE3ThTajA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -217,7 +211,7 @@ namespace FPT.Data.Migrations
                         {
                             Id = new Guid("1a84dce2-123a-435d-bba4-df3f325983dc"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "35e5e5e0-eb8c-49ab-840c-d6d8a3bd9c56",
+                            ConcurrencyStamp = "c7e0cfbc-a4da-4b5d-8514-1c86be754c88",
                             Dob = new DateTime(2001, 1, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "BaoNguyenLeVHGCS190654@fpt.edu.com",
                             EmailConfirmed = true,
@@ -226,7 +220,7 @@ namespace FPT.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "BaoNguyenLeVHGCS190654@fpt.edu.com",
                             NormalizedUserName = "Bao",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPt0Hflm/E67ZXJp79dWRCDCLGupTRfTYdyZ+WJ72GMElvZXfhsYGhDhGylcEdRvIw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIpoaexQ+eWjcvKeC4mIe3STaU6q6GvfV2dHbK/xZlhTEpFXuihbk4qQplAv0OcN+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -236,7 +230,7 @@ namespace FPT.Data.Migrations
                         {
                             Id = new Guid("ad80dce2-969a-1313-bba4-8d89325983dc"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "41f8c01b-457a-4b66-9ac4-a66ef239e68b",
+                            ConcurrencyStamp = "d7f0bc99-0ba6-4bad-abdb-f6b905f14954",
                             Dob = new DateTime(1997, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "NhanVGBS1588@fpt.staff.com",
                             EmailConfirmed = true,
@@ -245,30 +239,11 @@ namespace FPT.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "NhanVGBS1588@fpt.staff.com",
                             NormalizedUserName = "Nhan",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGPM+53vvq42+QwEPOX5N4yd6+YIaPoepxituW5Bu+I8m8H5nogNC7Xik00ge6Q8mw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEO3ehf1woF56V9tqUzXyNOjTVV+/ATDdIiLhLtcPr2azLTKndm3E2yIub48dfG2rxg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
                             UserName = "NhanVan"
-                        },
-                        new
-                        {
-                            Id = new Guid("c1e71b9a-7aae-4f7c-9ab9-b9e52d1ef6da"),
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "9435769b-a773-49f0-beb0-d18bc9042b9f",
-                            Dob = new DateTime(1998, 4, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "DuyNguyenDalat@fpt.staff.com",
-                            EmailConfirmed = true,
-                            FirstName = "Duy",
-                            LastName = "Nguyen",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "DuyNguyenDalat@fpt.staff.com",
-                            NormalizedUserName = "Duy",
-                            PasswordHash = "AQAAAAEAACcQAAAAEL/DKmyvss8AB9eogV5COToKB478uka912Mls5GOlr0Cyf6dUEdmqEIDuI3v86q00Q==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "DuyDallat34"
                         });
                 });
 
@@ -508,17 +483,17 @@ namespace FPT.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2021, 9, 16, 20, 58, 49, 362, DateTimeKind.Local).AddTicks(6521)
+                            DateCreated = new DateTime(2021, 9, 13, 23, 56, 9, 846, DateTimeKind.Local).AddTicks(7908)
                         },
                         new
                         {
                             Id = 2,
-                            DateCreated = new DateTime(2021, 9, 16, 20, 58, 49, 363, DateTimeKind.Local).AddTicks(6744)
+                            DateCreated = new DateTime(2021, 9, 13, 23, 56, 9, 847, DateTimeKind.Local).AddTicks(9276)
                         },
                         new
                         {
                             Id = 3,
-                            DateCreated = new DateTime(2021, 9, 16, 20, 58, 49, 363, DateTimeKind.Local).AddTicks(6802)
+                            DateCreated = new DateTime(2021, 9, 13, 23, 56, 9, 847, DateTimeKind.Local).AddTicks(9338)
                         });
                 });
 
@@ -929,11 +904,6 @@ namespace FPT.Data.Migrations
                         {
                             UserId = new Guid("1a84dce2-123a-435d-bba4-df3f325983dc"),
                             RoleId = new Guid("17d4acf8-1131-b5b7-1100-aa6f321543ba")
-                        },
-                        new
-                        {
-                            UserId = new Guid("c1e71b9a-7aae-4f7c-9ab9-b9e52d1ef6da"),
-                            RoleId = new Guid("074bc203-87c9-4dc6-883e-4800b5e9d4eb")
                         });
                 });
 

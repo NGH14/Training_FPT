@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace FPT.ViewModels.Catalog.Products
@@ -12,8 +13,12 @@ namespace FPT.ViewModels.Catalog.Products
         public string Description { set; get; }
         public string Details { set; get; }
 
+
+        [DataType(DataType.Date)]
         public DateTime Start { set; get; }
 
+
+        [DataType(DataType.Date)]
         public DateTime End { set; get; }
 
         public string TrainingTypes { set; get; }

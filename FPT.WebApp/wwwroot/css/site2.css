@@ -105,7 +105,46 @@ body {
 	margin-top: 35px;
 	text-transform: none;
 	font-weight: 700 !important;
+	width: 100% !important;
 }
+
+.display-5 {
+	display: block;
+	font-family: var(--font);
+	text-align: center;
+	font-size: 2rem !important;
+	line-height: 2 !important;
+	text-transform: none;
+	font-weight: 700 !important;
+	width: 100%;
+}
+
+
+td {
+	font-family: var(--font);
+	color: var(--black);
+	font-size: 1.1125rem;
+	padding: 0px !important;
+	font-weight: 400;
+	opacity: 1;
+	transition: color 0.3s ease-in-out 0s;
+	text-align: left;
+	line-height: 2;
+}
+
+th {
+	font-family: var(--font);
+	color: var(--black);
+	font-size: 1.1125rem;
+	padding: 0px !important;
+	font-weight: 400;
+	opacity: 1;
+	transition: color 0.3s ease-in-out 0s;
+	text-align: left;
+	line-height: 2;
+}
+
+
 
 p {
 	font-family: var(--font);

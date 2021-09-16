@@ -2,7 +2,7 @@
 @model PagedResult<FPT.ViewModels.Catalog.Products.ProductVm>
 
 @{
-    ViewData["Title"] = "Danh sách sản phẩm";
+    ViewData["Title"] = "Product List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @section Scripts{
@@ -13,16 +13,16 @@
     </script>
 }
 <div class="container-fluid">
-    <h1 class="mt-4">Danh sách sản phẩm</h1>
+    <h1 class="mt-4">Product List</h1>
     <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
-        <li class="breadcrumb-item active">Danh sách sản phẩm</li>
+        <li class="breadcrumb-item"><a href="/">Homepage</a></li>
+        <li class="breadcrumb-item active">Product Lít</li>
     </ol>
     <div class="card mb-12">
         <div class="card-header">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
-                    <a class="btn btn-success" asp-action="Create" asp-controller="Product">Tạo mới</a>
+                    <a class="btn btn-success" asp-action="Create" asp-controller="Product">Create New Product</a>
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <form asp-action="Index" method="get">
@@ -32,7 +32,7 @@
                             </div>
                             <div class="col-md-4">
                                 <select name="categoryId" onchange="this.form.submit()" asp-items="@ViewBag.Categories" class="form-control">
-                                    <option>--Chọn danh mục--</option>
+                                    <option>--Category</option>
                                 </select>
                             </div>
                             <div class="cold-md-3">

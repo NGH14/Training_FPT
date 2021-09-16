@@ -121,9 +121,8 @@
     <value>Thêm vào</value>
     <comment>Common</comment>
   </data>
-  <data name="available products" xml:space="preserve">
-    <value>sản phẩm có sẵn</value>
-    <comment>/Product/Category</comment>
+  <data name="Address" xml:space="preserve">
+    <value>Địa Chỉ</value>
   </data>
   <data name="categoryUrl" xml:space="preserve">
     <value>danh-muc</value>
@@ -132,6 +131,9 @@
   <data name="Contact" xml:space="preserve">
     <value>Liên hệ</value>
     <comment>Layouts</comment>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Được Tạo Vào</value>
   </data>
   <data name="Culture Internal Training" xml:space="preserve">
     <value>Đào Tạo Văn Hóa Nội Bộ</value>
@@ -171,6 +173,12 @@ và sự sáng tạo để chúng có thể được đặt lên hàng đầu.</
     <value>Giao hàng</value>
     <comment>Layouts</comment>
   </data>
+  <data name="Description" xml:space="preserve">
+    <value>Mô Tả</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>Kết Thúc</value>
+  </data>
   <data name="English" xml:space="preserve">
     <value>Tiếng Anh</value>
     <comment>Layouts</comment>
@@ -208,7 +216,7 @@ và sự sáng tạo để chúng có thể được đặt lên hàng đầu.</
     <comment>/Home/Index</comment>
   </data>
   <data name="Latest Training Course" xml:space="preserve">
-    <value>Khóa Đào Tạo Mới Nất</value>
+    <value>Khóa Đào Tạo Mới Nhất</value>
   </data>
   <data name="Learn more" xml:space="preserve">
     <value>Xem thêm</value>
@@ -237,6 +245,15 @@ và sự sáng tạo để chúng có thể được đặt lên hàng đầu.</
     <value>Có sẵn</value>
     <comment>Common</comment>
   </data>
+  <data name="Newest Training Course" xml:space="preserve">
+    <value>Khóa Đào Tạo Mới Nhất</value>
+  </data>
+  <data name="Offline Training Course" xml:space="preserve">
+    <value>Đào Tạo Tại Cơ Sở</value>
+  </data>
+  <data name="Online Training Course" xml:space="preserve">
+    <value>Đào Tạo Trực Tuyến</value>
+  </data>
   <data name="Page" xml:space="preserve">
     <value>Trang</value>
     <comment>Common</comment>
@@ -253,9 +270,6 @@ và sự sáng tạo để chúng có thể được đặt lên hàng đầu.</
     <value>san-pham</value>
     <comment>Layouts</comment>
   </data>
-  <data name="Related Products" xml:space="preserve">
-    <value>Sản phẩm liên quan</value>
-  </data>
   <data name="Sign in" xml:space="preserve">
     <value>Đăng Nhập</value>
     <comment>Layouts</comment>
@@ -268,9 +282,27 @@ và sự sáng tạo để chúng có thể được đặt lên hàng đầu.</
     <value>Khuyến mãi</value>
     <comment>Layouts</comment>
   </data>
+  <data name="Start" xml:space="preserve">
+    <value>Bắt Đầu</value>
+  </data>
+  <data name="Trainer" xml:space="preserve">
+    <value>Đào Tạo Viên</value>
+  </data>
   <data name="Training" xml:space="preserve">
     <value>Đào Tạo</value>
     <comment>Layouts</comment>
+  </data>
+  <data name="Training Description" xml:space="preserve">
+    <value>Mô Tả Đào Tạo</value>
+  </data>
+  <data name="Training Detail" xml:space="preserve">
+    <value>Chi Tiết Đào Tạo</value>
+  </data>
+  <data name="Training Information" xml:space="preserve">
+    <value>Thông Tin Đào Tạo</value>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Phương Thức</value>
   </data>
   <data name="Vietnamese" xml:space="preserve">
     <value>Tiếng Việt</value>

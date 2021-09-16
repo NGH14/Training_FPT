@@ -14,10 +14,13 @@ namespace FPT.Data.Entities
         public string TrainingTypes { set; get; }
         public string TrainerEmail { set; get; }
 
+
+
         public string Address { set; get; }
 
         public string Details { set; get; }
         public string LanguageId { set; get; }
+
 
         public DateTime Start { set; get; }
         public DateTime End { set; get; }

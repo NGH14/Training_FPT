@@ -152,7 +152,7 @@ namespace FPT.Data.Extensions
                       ProductId = 3,
                       Name = "Lập Trình như là Kỹ Sư Phần Mềm",
                       LanguageId = "vi",
-                      Details = "Để hiểu những thành phần nào chúng ta có thể cần và cách lắp ráp chúng,t trực tuyến hàng nghìn tỷ giao dịch blockchain, ở độ trễ 10 mili giây, từ không gian giữa các vì sao! Hãy áp dụng đủ các ràng buộc thiết kế để giải quyết vấn đề trước mắt của bạn. Để chuẩn bị cho nơi mà bạn mong đợi một cách hợp lý trong một năm. phần thiết kế nào để xem lại.",
+                      Details = "Các nhóm hiệu quả viết ít phần mềm hơn và viết ít phần mềm hơn cho phép các nhóm làm việc hiệu quả hơn. Thoạt nghe, điều này nghe có vẻ phản trực giác: Không phải tất cả chúng ta ở đây đều là kỹ sư viết phần mềm sao? Năng suất của chúng ta không được đo bằng các dòng mã sao? Để xua tan ảo tưởng này, chúng ta cần dừng việc nhầm lẫn đôi khi chúng ta làm gì với lý do tại sao. Với tư cách là kỹ sư, chúng tôi thiết kế và xây dựng các giải pháp cho các vấn đề mà doanh nghiệp của chúng tôi gặp phải. Viết mã của riêng chúng ta thường là một phần của câu trả lời. Nhưng cũng như chúng tôi sẽ không khăng khăng rằng mọi cây cầu đều được xây dựng bằng dầm và bu lông đặt riêng hoặc tất cả các phích cắm và ổ cắm điện đều có kiểu dáng riêng, chúng tôi không nên nhấn mạnh vào việc xây dựng theo yêu cầu của từng bộ phận của thiết kế mà chúng tôi chế tạo. Thay vào đó, chúng ta nên tập trung năng lượng hữu hạn của nhóm vào những nơi mà họ có thể mang lại giá trị độc đáo. Nếu chúng tôi thưởng cho các nhóm và cá nhân vì đã phát minh lại bánh xe thay vì tái sử dụng một cách thông minh các thành phần hiện có, chúng tôi đang tự mình hướng tới những nỗ lực thủ công, tốn kém hơn là các nền tảng được chia sẻ hiệu quả.",
                       Description = "Với tư cách là kỹ sư, chúng tôi thiết kế và xây dựng giải pháp cho các vấn đề mà doanh nghiệp của chúng tôi gặp phải. Viết mã của riêng chúng tôi thường là một phần của câu trả lời. Nhưng cũng như chúng tôi sẽ không khăng khăng rằng mọi cây cầu phải được xây dựng bằng dầm và bu lông đặt riêng, hoặc tất cả phích cắm và ổ cắm điện đều có các yếu tố hình thức riêng, chúng ta không nên khăng khăng xây dựng tùy chỉnh từng phần của thiết kế mà chúng ta tạo ra. Thay vào đó, chúng ta nên tập trung năng lượng hữu hạn của nhóm vào những nơi mà chúng có thể mang lại giá trị độc đáo . Nếu chúng ta thưởng cho các nhóm và cá nhân vì đã phát minh lại bánh xe thay vì tái sử dụng một cách thông minh các thành phần hiện có, chúng ta đang tự đưa mình vào những nỗ lực thủ công, tốn kém hơn là các nền tảng được chia sẻ hiệu quả",
                       Start = new DateTime(2020, 1, 21),
                       End = new DateTime(2021, 1, 21),
@@ -167,7 +167,7 @@ namespace FPT.Data.Extensions
                     ProductId = 3,
                     Name = "Code less, engineer more",
                     LanguageId = "en",
-                    Details = "Code less, engineer more",
+                    Details = "Effective teams write less software, and writing less software enables teams to be more effective. This may sound counterintuitive at first: Aren’t we all here as engineers to write software? Isn’t our productivity measured in lines of code? To dispel this illusion, we need to stop conflating what we sometimes do with why.  As engineers, we design and build solutions to the problems that our businesses face. Writing code of our own is often part of the answer. But just as we wouldn’t insist that every bridge be built with bespoke girders and bolts, or that all electrical plugs and sockets have their own form factors, we shouldn’t insist on custom-building every part of the designs that we craft. Instead, we should focus our teams’ finite energy on the places where they can deliver unique value. If we reward teams and individuals for reinventing the wheel rather than for the smart reuse of existing components, we’re dooming ourselves to costly, artisanal efforts rather than efficient shared platforms. Build what you must, buy what you can, and write it all down When we’re building something new, our work starts with mapping out an overall strategy, with an understanding of the organization’s context and needs, and writing the pieces that we must create ourselves. As the project progresses, we identify appropriate vendors and suppliers for the pieces we think are more efficient to purchase off the shelf than to build from scratch. The work ends with integrating all of these components into solutions for our customers. And since engineering is a continuous rather than one-time process, we ought to document our decisions for future maintainability, and to share what we’ve learned within our organizations and our broader communities.",
                     Description = "As engineers, we design and build solutions to the problems that our businesses face. Writing code of our own is often part of the answer. But just as we wouldn’t insist that every bridge be built with bespoke girders and bolts, or that all electrical plugs and sockets have their own form factors, we shouldn’t insist on custom-building every part of the designs that we craft. Instead, we should focus our teams’ finite energy on the places where they can deliver unique value. If we reward teams and individuals for reinventing the wheel rather than for the smart reuse of existing components, we’re dooming ourselves to costly, artisanal efforts rather than efficient shared platforms.",
                     Start = new DateTime(2020, 1, 21),
                     End = new DateTime(2021, 1, 21),
@@ -175,11 +175,6 @@ namespace FPT.Data.Extensions
                     TrainingTypes = "Online",
                     Address = "https://meet.google.com/ffy-huvy-cjg"
                 }
-
-
-
-
-
 
 
                 ); ; ;
@@ -202,25 +197,27 @@ namespace FPT.Data.Extensions
 
             var adminId = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00DE");
 
-            var trainerId = new Guid("12BD354F-9101-45CA-B5B7-DA3F325983DC");
+            var trainingAnalystId = new Guid("12BD354F-9101-45CA-B5B7-DA3F325983DC");
 
-            var traineeId = new Guid("17D4ACF8-1131-B5B7-1100-AA6F321543BA");
+            var fptstaffId = new Guid("17D4ACF8-1131-B5B7-1100-AA6F321543BA");
+
+            var hrId = new Guid("074bc203-87c9-4dc6-883e-4800b5e9d4eb");
 
 
             modelBuilder.Entity<AppRole>().HasData(new AppRole
             {
-                Id = trainerId,
-                Name = "Trainer",
-                NormalizedName = "Trainer",
-                Description = "Trainer role"
+                Id = trainingAnalystId,
+                Name = "Training Analyst",
+                NormalizedName = "Training Analyst",
+                Description = "Training Analyst role"
             });
 
             modelBuilder.Entity<AppRole>().HasData(new AppRole
             {
-                Id = traineeId,
-                Name = "Trainee",
-                NormalizedName = "Trainee",
-                Description = "Trainee role"
+                Id = fptstaffId,
+                Name = "FPT Staff",
+                NormalizedName = "FPT Staff",
+                Description = "FPT Staff role"
             });
 
             modelBuilder.Entity<AppRole>().HasData(new AppRole
@@ -230,6 +227,15 @@ namespace FPT.Data.Extensions
                 NormalizedName = "Admin",
                 Description = "Administrator role"
             });
+
+            modelBuilder.Entity<AppRole>().HasData(new AppRole
+            {
+                Id = hrId,
+                Name = "Human Resources",
+                NormalizedName = "Human Resources",
+                Description = "Human Resources role"
+            });
+
 
 
 
@@ -302,6 +308,23 @@ namespace FPT.Data.Extensions
 
 
 
+            modelBuilder.Entity<AppUser>().HasData(new AppUser
+            {
+                Id = new Guid("c1e71b9a-7aae-4f7c-9ab9-b9e52d1ef6da"),
+                UserName = "DuyDallat34",
+                NormalizedUserName = "Duy",
+                Email = "DuyNguyenDalat@fpt.staff.com",
+                NormalizedEmail = "DuyNguyenDalat@fpt.staff.com",
+                EmailConfirmed = true,
+                PasswordHash = hasher.HashPassword(null, "DuyNguyen@123"),
+                SecurityStamp = string.Empty,
+                FirstName = "Duy",
+                LastName = "Nguyen",
+                Dob = new DateTime(1998, 4, 3)
+            });
+
+
+
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
             {
                 RoleId = adminId,
@@ -311,21 +334,27 @@ namespace FPT.Data.Extensions
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
             {
-                RoleId = traineeId,
+                RoleId = fptstaffId,
                 UserId = new Guid("1710DCE2-969A-435D-BBA4-DF3F325983DC")
             });
 
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
             {
-                RoleId = trainerId,
+                RoleId = trainingAnalystId,
                 UserId = new Guid("AD80DCE2-969A-1313-BBA4-8D89325983DC")
             });
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
             {
-                RoleId = traineeId,
+                RoleId = fptstaffId,
                 UserId = new Guid("1A84DCE2-123A-435D-BBA4-DF3F325983DC")
+            });
+
+            modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+            {
+                RoleId = hrId,
+                UserId = new Guid("c1e71b9a-7aae-4f7c-9ab9-b9e52d1ef6da")
             });
 
 

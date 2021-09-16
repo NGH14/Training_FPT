@@ -9,20 +9,20 @@ namespace FPT.ViewModels.System.Users
     {
         public Guid Id { get; set; }
 
-        [Display(Name = "Tên")]
+        [Display(Name = "FirstName")]
         public string FirstName { get; set; }
 
-        [Display(Name = "Họ")]
+        [Display(Name = "LastName")]
         public string LastName { get; set; }
 
-        [Display(Name = "Ngày sinh")]
+        [Display(Name = "Dob")]
         [DataType(DataType.Date)]
         public DateTime Dob { get; set; }
 
-        [Display(Name = "Hòm thư")]
+        [Display(Name = "Email")]
         public string Email { get; set; }
 
-        [Display(Name = "Số điện thoại")]
+        [Display(Name = "PhoneNumber")]
         public string PhoneNumber { get; set; }
     }
 }
